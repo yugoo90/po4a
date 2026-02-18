@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Hello po4a</title>
+
+  <section id="intro">
+    <heading>Introduction</heading>
+    <para>This is a simple XML document used to test po4a.</para>
+    <para>We will extract these strings into a PO/POT file.</para>
+  </section>
+
+  <section id="second">
+    <heading>Second Section</heading>
+    <para>Po4a can generate localized XML files from translations.</para>
+  </section>
+</document>
