@@ -1777,18 +1777,6 @@ sub format_comment {
     return $result;
 }
 
-=item header()
-
-Returns the header of the PO file.
-
-=cut
-
-sub header {
-    my $self = shift;
-    return $self->{header_comment}
-    . "\n" .self->{header};
-}
-
 1;
 __END__
 
