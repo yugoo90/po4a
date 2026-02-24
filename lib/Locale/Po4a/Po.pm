@@ -1777,6 +1777,12 @@ sub format_comment {
     return $result;
 }
 
+# return the header of the PO file
+sub header {
+    my $self = shift;
+    return $self->{header_comment} . "\n" . $self->{header};
+}
+
 1;
 __END__
 

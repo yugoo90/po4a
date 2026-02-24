@@ -1367,6 +1367,12 @@ sub handle_yaml {
     }
 }
 
+# return the header of the PO file
+sub headerPO {
+    my $self = shift;
+    return $self->{TT}{po_in}->header();
+}
+
 =back
 
 =head1 FUTURE DIRECTIONS
