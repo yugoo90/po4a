@@ -1367,8 +1367,13 @@ sub handle_yaml {
     }
 }
 
-# return the header of the PO file
-sub headerPO {
+=item header_po()
+
+Returns the header of the PO file.
+
+=cut
+
+sub header_po {
     my $self = shift;
     return $self->{TT}{po_in}->header();
 }
